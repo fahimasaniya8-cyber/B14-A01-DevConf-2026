@@ -239,3 +239,73 @@ img {
   font-weight: 600px;
   cursor: pointer;
 }
+.banner {
+  background: rgb(228, 215, 255);
+  color: black;
+  max-width: 1200px;
+  width: 90%;
+  height: auto;
+  text-align: center;
+  padding: 60px 40px;
+  margin: 60px auto;
+  border-radius: 28px;
+  border: 4px dashed blue;
+  box-sizing: border-box;
+}
+.banner div {
+  padding-top: 50px;
+}
+.banner h6 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.banner p {
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.last-btn {
+  background: linear-gradient(90deg, #7c3aed, #a855f7);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+
+  padding: 18px 45px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.final-btn {
+  padding-top: 100px;
+}
+.main-banner {
+  background-color: rgb(255, 253, 241);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  padding: 50px 8%;
+}
+.footer {
+  background: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 0;
+}
+
+.social-icons {
+  margin-bottom: 15px;
+}
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 12px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: #7c3aed;
+}
